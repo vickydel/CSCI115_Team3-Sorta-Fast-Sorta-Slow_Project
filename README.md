@@ -23,7 +23,7 @@
 ## 1. Project Overview
 - This project studies how the theoretical time complexity of sorting algorithms compares to actual measured runtime and is divided into 2 parts:
 
-**Part 1**: studies algorithm and compares theoretical runtime with actual measured runtime (average runtime across 5 runs)
+**Part 1**: Studies algorithm and compares theoretical runtime with actual measured runtime (average runtime across 5 runs using the same input size and algorithm)
 
 **Part 2**: Using the two sum method to solve the following problem:
 > Problem: Given a set S of n integers and an integer x, determine whether there exist two elements in S whose sum is exactly x.
@@ -78,15 +78,15 @@
 
 --- 
 ## What the Program Does
-1. runs correctness tests for all sorting algorithms
-2. asks the user to choose an input size
-3. asks the user to choose an input type
-4. asks the user to choose a sorting algorithm
-5. runs the selected algorithm
-6. measures execution time
-7. print the time in millisecond
-8. print the first 20 values of the sorted result
-9. allows the user run another test without rebuilding
+1. Runs correctness tests for all sorting algorithms
+2. Asks the user to choose an input size
+3. Asks the user to choose an input type
+4. Asks the user to choose a sorting algorithm
+5. Runs the selected algorithm
+6. Measures execution time
+7. Print the time in milliseconds
+8. Print the first 20 values of the sorted result
+9. Allows the user run another test without rebuilding
 ---
 ## Input Sizes
 The program supported these array sizes:
@@ -106,13 +106,13 @@ The program offers 3 input types per sorting algorithm:
 ---
 ## 5. Program Features
 ### Part 1: Time Complexity / Running Time Analysis
-- correctness testing
-- input size selection menu
-- input type selection menu
-- sorting algorithm selection menu
-- runtime measurements (in miliseconds)
-- sorted output preview
-- repeat menu
+- Correctness testing
+- Input size selection menu
+- Input type selection menu
+- Sorting algorithm selection menu
+- Runtime measurements (in miliseconds)
+- Sorted output preview
+- Repeat menu
 
 ### Part 2:
 - Contains:
